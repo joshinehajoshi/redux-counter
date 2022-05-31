@@ -28,13 +28,8 @@ function Header() {
           </Nav.Link>
         </Nav>
         <Form className="d-flex">
-          <FormControl
-            type="search"
-            placeholder="Search"
-            className="me-2"
-            aria-label="Search"
-          />
-          <Button variant="outline-success">Search</Button>
+          <Button variant="outline-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+</Button>
         </Form>
       </Navbar.Collapse>
     </Container>
