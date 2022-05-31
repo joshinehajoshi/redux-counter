@@ -1,0 +1,22 @@
+.counter-wrapper {
+    font-weight: bolder;
+    color: white;
+    margin-left: -2px;
+    font-size: smaller;
+    position: relative;
+    bottom: 15px;
+    right: 2px;
+    background-color: brown;
+    border-radius: 24%;
+    padding: 4px;
+}
+
+.fa-cart-plus:before {
+    content: "\f217";
+    font-size: 30px;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: #212529
+}

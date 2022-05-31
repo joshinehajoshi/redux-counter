@@ -1,9 +1,10 @@
 import React from 'react';
-import { Navbar, Container, NavDropdown, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import '../style/header.css';
+import { Navbar, Container, NavDropdown, Nav, Form, Button } from 'react-bootstrap';
 
 function Header() {
   return (
-    <div><Navbar bg="light" expand="lg">
+    <div><Navbar bg="dark" variant="dark" expand="lg">
     <Container fluid>
       <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
@@ -28,13 +29,9 @@ function Header() {
           </Nav.Link>
         </Nav>
         <Form className="d-flex">
-          <FormControl
-            type="search"
-            placeholder="Search"
-            className="me-2"
-            aria-label="Search"
-          />
-          <Button variant="outline-success">Search</Button>
+          <Button variant="outline-success">
+            <i class="fa fa-cart-plus" aria-hidden="true"><span className='counter-wrapper'>1</span></i>
+            </Button>
         </Form>
       </Navbar.Collapse>
     </Container>
